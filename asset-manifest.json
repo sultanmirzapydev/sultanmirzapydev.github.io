@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/sultanmirzapydev/sultanmirzapydev.github.io/static/css/main.073c9b0a.css",
+    "main.js": "/sultanmirzapydev/sultanmirzapydev.github.io/static/js/main.d5aba6ff.js",
+    "static/js/787.b13fdd03.chunk.js": "/sultanmirzapydev/sultanmirzapydev.github.io/static/js/787.b13fdd03.chunk.js",
+    "static/media/logo.svg": "/sultanmirzapydev/sultanmirzapydev.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/sultanmirzapydev/sultanmirzapydev.github.io/index.html",
+    "main.073c9b0a.css.map": "/sultanmirzapydev/sultanmirzapydev.github.io/static/css/main.073c9b0a.css.map",
+    "main.d5aba6ff.js.map": "/sultanmirzapydev/sultanmirzapydev.github.io/static/js/main.d5aba6ff.js.map",
+    "787.b13fdd03.chunk.js.map": "/sultanmirzapydev/sultanmirzapydev.github.io/static/js/787.b13fdd03.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.d5aba6ff.js"
+  ]
+}
