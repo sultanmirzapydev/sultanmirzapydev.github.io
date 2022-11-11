@@ -1,5 +1,3 @@
-$\mathrm{x}\bigcap_{d}^{a}$
-
 # Summary of the paper "*Generating Sequences by learning to [Self-] correct*"
  *you can find more information about this paper at
 [https://arxiv.org/abs/2211.00053](https://arxiv.org/abs/2211.00053)*

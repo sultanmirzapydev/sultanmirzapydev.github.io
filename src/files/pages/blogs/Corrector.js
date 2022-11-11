@@ -14,30 +14,30 @@ const Corrector =() => {
 
    const [markdown, setMarkdown] = useState( "");
    let loc = useLocation();
-   useEffect(()=>{
-    import('../../markdowns/AutoEncoders.md').then((module)=>
-    fetch(module.default)
-    .then(res=>res.text())
-    .then(md=> setMarkdown(md))
+//    useEffect(()=>{
+//     import('../../markdowns/AutoEncoders.md').then((module)=>
+//     fetch(module.default)
+//     .then(res=>res.text())
+//     .then(md=> setMarkdown(md))
 
-    )
-   },[]);
-//    useEffect(()=> {
-//     fetch(pat).then((res)=> res.text()).then((text)=>setMarkdown(text));
+//     )
 //    },[]);
+   useEffect(()=> {
+    fetch(file).then((res)=> res.text()).then((text)=>setMarkdown(text));
+   },[]);
    
    
     return (
         <>
-          <Suspense fallback={<div>Loading...</div>}>
+          {/* <Suspense fallback={<div>Loading...</div>}>
         <ReactMarkdown children={markdown} remarkPlugins={[remarkGfm]}  rehypePlugins={[rehypeRaw]}/>
-      </Suspense>
-        {/* <Latex>
+      </Suspense> */}
+        <Latex>
         <Container component="main" sx={{marginTop:'10vh',width:'70vw',fontSize:'21px'}}>
        
         <ReactMarkdown children = {markdown} remarkPlugins={[remarkGfm]}  rehypePlugins={[rehypeRaw]}  />
         </Container> 
-        </Latex> */}
+        </Latex>
         </>
     )
 }
