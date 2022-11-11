@@ -13,14 +13,16 @@ import Main from './blogs/Main';
 const Homepage = () => {
   const [isTrue, setIsTrue] = useState(false)
   const loc = useLocation();
-  console.log(loc.pathname,loc)
+  
+
+ 
   
     return (
         <>
          {loc.pathname == '/' ? <Container maxWidth='false' disableGutters='false' sx={{display:'flex',flexDirection:'column',height:'100vh',width:'100%',display:'flex',justifyContent:'center',overflow:'hidden',}}>
             
           
-          <Card raised='true' style={{height:isTrue?'0%':'30%'}} onClick='clickfn' sx={{width:'80%',display:'flex',position:'relative',margin:'auto',marginTop:'6%',height:'30%',justifyContent:'center',textAlign:'center',left:'0',right:'0'}}>
+          <Card raised='true' style={{height:isTrue?'0%':'30%'}}  sx={{width:'80%',display:'flex',position:'relative',margin:'auto',marginTop:'6%',height:'30%',justifyContent:'center',textAlign:'center',left:'0',right:'0'}}>
           <Link to='/corrector' style={{textDecoration:'none'}} >
             <div style={{display:'flex',  justifyContent:'center',alignItems:'center', height:'100%',width:'100%'}}>
             

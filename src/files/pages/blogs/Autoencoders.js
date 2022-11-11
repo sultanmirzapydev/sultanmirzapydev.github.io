@@ -7,20 +7,24 @@ import remarkGfm from 'remark-gfm'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
 
+const MathJax = require('react-mathjax')
+
 
 const Autoencoders =() => {
    const [markdown, setMarkdown] = useState( "");
+  
    useEffect(()=> {
-    fetch(file).then((res)=> res.text()).then((text)=>setMarkdown(text));
+    fetch(file).then((res)=> res.text()).then((text)=>setMarkdown(text));  
    },[]);
+
    
     return (
         <>
-          
-         <Container component="main" sx={{marginTop:'10vh',width:'70vw',fontSize:'23px'}}>
+        
+        <Container component="main" sx={{marginTop:'10vh',width:'70vw',fontSize:'23px'}}>
        
         <ReactMarkdown children = {markdown} remarkPlugins={[remarkMath,remarkGfm]}  rehypePlugins={[rehypeKatex,rehypeRaw]}  />
-        </Container>
+        </Container> 
         </>
     )
 }
