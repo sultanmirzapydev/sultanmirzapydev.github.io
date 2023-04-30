@@ -1,12 +1,11 @@
 import React, { Component }  from 'react';
-import Homepage from './files/pages/Homepage';
-
+import Main from './files/pages/Main';
 
 function App() {
   return (
     
-      <Homepage/>
-    
+      <Main/>
+  
     
   );
 }
