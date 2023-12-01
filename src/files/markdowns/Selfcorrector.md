@@ -2,8 +2,15 @@
  *you can find more information about this paper at
 [https://arxiv.org/abs/2211.00053](https://arxiv.org/abs/2211.00053)*
 
-$$s = ut + \\frac{1}{2}at^{2}$$
+```js
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Markdown from 'react-markdown'
+import rehypeHighlight from 'rehype-highlight'
+```
+$$ \sum_{\frac{2}{v}}^{z}bhm $$
 
+$$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\rm{head_i} = \rm{Attention(QW_{i}^{d_{model}\times d_q},KW_{i}^{d_{model}\times d_k},VW_{i}^{d_{model}\times d_v})}$$
 <br/>
 <br/>
 <br/><br/>
