@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fix_code {
+	
+    display: block;
+    overflow-x: auto;
+    padding: 1em;
+    width: 70%;
+    margin: auto;
+}
+
+.math_css {
+    overflow:hidden;
+
+}
+
+@media (max-width: 460px){
+    .math_css {
+    overflow:hidden;
+    color: red;
+
+}
+}

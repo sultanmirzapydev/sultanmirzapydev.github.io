@@ -1,16 +1,20 @@
-# Summary of the paper "*Generating Sequences by learning to [Self-] correct*"
- *you can find more information about this paper at
-[https://arxiv.org/abs/2211.00053](https://arxiv.org/abs/2211.00053)*
+
+
 
 ```js
 import React from 'react'
 import ReactDOM from 'react-dom'
 import Markdown from 'react-markdown'
-import rehypeHighlight from 'rehype-highlight'
+import rehypeHighlight from 'rehype-highlight' 
 ```
-$$ \sum_{\frac{2}{v}}^{z}bhm $$
 
-$$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\rm{head_i} = \rm{Attention(QW_{i}^{d_{model}\times d_q},KW_{i}^{d_{model}\times d_k},VW_{i}^{d_{model}\times d_v})}$$
+
+
+
+$$ \sum_{\frac{2}{v}}^{z}bhm $$
+<div class=''>
+$$\rm{head_i} = \rm{Attention(QW_{i}^{d_{model}\times d_q},KW_{i}^{d_{model}\times d_k},VW_{i}^{d_{model}\times d_v})}$$
+</div>
 <br/>
 <br/>
 <br/><br/>
@@ -24,6 +28,13 @@ Large language models meet our requirements most of the time, but they occasiona
 
 <img style="width:100%" src="https://user-images.githubusercontent.com/58060373/200112945-17be251e-d4c2-4aea-999d-45c8751d343b.JPG"/>
 <div style="text-align:center"> credit: <a style="text-decoration:none" href="https://arxiv.org/abs/2211.00053"> Sean et al. </a></div>
+
+```js
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Markdown from 'react-markdown'
+import rehypeHighlight from 'rehype-highlight' 
+```
 
 <br/> <br/>
 Figure 1 shows how the corrector model takes the generated output from the base model as input and then iteratively improves the quality of the input.
@@ -93,8 +104,14 @@ We train the corrector using cross-entropy loss &nbsp; <img src="https://user-im
 </div> -->
 <br/>
 
+```js
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Markdown from 'react-markdown'
+import rehypeHighlight from 'rehype-highlight' 
+```
+
 At inference time, a self-correcting algorithm takes the generated output from the base generator and iteratively improves the hypothesis.
 
 For a more in-depth idea of this algorithm, check out the paper &nbsp; [https://arxiv.org/abs/2211.00053](https://arxiv.org/abs/2211.00053)
-
 
